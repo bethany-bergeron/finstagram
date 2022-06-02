@@ -45,7 +45,7 @@ end
 
 # end
 
-# Using hashes
+# Using hashes (finstagram post is our variable, which bundles the hashes)
 
 get '/' do
   finstagram_post_shark = {
