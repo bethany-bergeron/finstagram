@@ -3,13 +3,16 @@
 }
 
 body, input {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Chivo', sans-serif;
+  font-weight: 300;
   margin: 0;
-  color: #244751;
+  color: #14213D;
 }
 
 a {
-  color: #8da7b8;
+  color: #FFFFFF;
+  border: solid 2px #1E96FC;
+  padding: 0.25em;
   text-decoration: none;
 }
 
@@ -50,7 +53,7 @@ main {
   padding: 1em;
   width: 100%;
   border-radius: 4px;
-  background-color: #4A6FA5;
+  background-color: #FCA311;
   border: 0;
   color: white;
   box-sizing: border-box;
@@ -58,14 +61,19 @@ main {
 
 .button {
   padding: 0.5em;
-  background-color: #4A6FA5;
+  background-color: #FCA311;
   border: solid 0px white;
   color: white;
   display: inline-block;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: large;
 }
 
 .finstagram-post > * {
   margin-bottom: 1em;
+  border: 0;
 }
 
 .user-info {
@@ -100,8 +108,11 @@ main {
 }
 
 .actions button.user-like {
-  color: #FF2600;
-  border-color: #FF2600;
+  color: #FCA311;
+  background-color: #14213D;
+  border: solid 2px;
+  border-color: #FCA311;
+  font-weight: bolder;
 }
 
 .actions .comment-count {
@@ -118,8 +129,34 @@ main {
 
 .form-group {
   margin-bottom: 1em;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-style: italic;
 }
 
 .new-comment input[type="text"] {
   width: 100%;
+}
+
+.app-title {
+  border: 0;
+  color: #FFFFFF;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 50px;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }

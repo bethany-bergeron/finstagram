@@ -1,18 +1,18 @@
 header {
-    background-color: #E8EDDF;
-    color: #4A6FA5;
+    background-color: #000000;
+    color: #FFFFFF;
     margin-left: 25%;   
 }
 
 body {
-    background-color: #E8EDDF;
-    font-family: 'Inconsolata', monospace;
+    background-color: #000000;
+    font-family: 'Chivo', sans-serif;
 }
 
 main {
-    background-color: #CFDBD5;
+    background-color: #14213D;
     padding: 16px;
-    color:#4A6FA5; 
+    color:#FFFFFF; 
 }
 
 .finstagram-post{
@@ -32,8 +32,9 @@ a.photo:hover{
   }
 
 .comments {
-    background-color:#4A6FA5;
-    color: white;
+    background-color:#14213D;
+    color: #FFFFFF;
+    border: solid 2px #1E96FC;
     padding: 1px;
     padding-left: 10px;
 }
