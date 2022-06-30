@@ -94,4 +94,5 @@ get '/' do
   }
   # putting hashes into a single array, where to_s turns it into a string
   [finstagram_post_shark, finstagram_post_whale, finstagram_post_marlin].to_s
+erb(:index)
 end
