@@ -5,6 +5,7 @@ class FinstagramPost < ActiveRecord::Base
     has_many :likes
 # ensures that a post record cant be created if theres no user associated with it
     validates_presence_of :user
+    validates :photo_url, :user, presence: true
 
 # defining this method just for finstagram posts only by putting it here instead of actions.rb
     def humanized_time_ago
